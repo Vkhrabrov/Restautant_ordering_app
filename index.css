@@ -49,8 +49,8 @@ header, main {
     border: 1px solid lightgrey;
     border-radius: 50px;
     padding-bottom: 1px;
-    padding-right: 1px;
-    padding-left: 2px;
+    padding-right: 3px;
+    padding-left: 3px;
 }
 
 .item-details{
