@@ -1,0 +1,170 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: 'Smythe', cursive;
+} 
+
+header{
+    background-image: url("images/header_image.jpg");
+    background-size: 110%;
+    background-position-y: 50%;
+    height: 150px;
+    
+}
+
+.header-text{
+    text-align: left;
+    color: white;
+    line-height: 0.5em;
+    padding: 35px 40px; 
+    letter-spacing: 0.8px;
+}
+
+header, main {
+    margin: auto;
+    width: 400px;
+}
+
+.menu-list{
+    border-bottom: 1px solid lightgray;
+    margin-top: 28px;
+    display: flex;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.item-logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+
+#add-item-button{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.item-details{
+    line-height: 0.4;
+    margin-top: 7px;
+}
+
+.item-emoji{
+   font-size: 400%;
+}
+
+.ingredients{
+   size: 80%;
+   color: #666;
+   padding-bottom: 8px;
+}
+
+.item-name{
+    font-size: larger;
+}
+
+button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 120%;
+    text-align: center;
+}
+
+.remove-item-button{
+    border: none;
+    font-size: 10px;
+    color: grey;
+}
+
+#create-order-button{
+    width: 400px;
+    height: 40px;
+    background-color: #16DB99;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+#submit-button{
+    margin-left: 45px;
+    margin-top: 30px;
+    width: 260px;
+    height: 40px;
+    border: 1px solid #16DB99;
+    border-radius: 5px;
+    background-color: #16DB99;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+.order-list, .totalPrice{
+    display: flex;
+    justify-content: space-between;
+    font-size: 115%;
+}
+
+.order-list{
+    line-height: 0em;
+}
+
+h2{
+    text-align: center;
+}
+
+.totalPrice{
+    border-top: 1px solid black;
+}
+
+.modal{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #ffffff;
+    display: none;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#basket-empty-message{
+    text-align: center;
+    font-size: 120%;
+}
+
+#final-message{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #ECFDF5;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    color: #065F46;
+}
